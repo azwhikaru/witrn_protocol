@@ -208,7 +208,7 @@ struct MeterData {
 }
 ```
 
-| OffPer `byte` | OffHour `byte` | RecmA `ushort` | Ah `float` | Wh `float` | RecTime `uint` | RunTime `uint` | dp `float` | dm `float` | TempIn `float` | TempOut `float` | vol `float` | cur  `float` | RecGrp `byte` | reversed `7 byte` |
+| OffPer `byte` | OffHour `byte` | RecmA `ushort` | Ah `float` | Wh `float` | RecTime `uint` | RunTime `uint` | dp `float` | dm `float` | TempIn `float` | TempOut `float` | vol `float` | cur  `float` | RecGrp `byte` | reseverd `7 byte` |
 | :-----------: | :------------: | :------------: | :--------: | :--------: | :------------: | :------------: | :--------: | :--------: | :------------: | :-------------: | :---------: | :----------: | :-----------: | :---------------: |
 |      Any      |      Any       |      Any       |    Any     |    Any     |      Any       |      Any       |    Any     |    Any     |      Any       |       Any       |     Any     |     Any      |      Any      |        Any        |
 
@@ -268,7 +268,7 @@ struct MeterData {
 
 	Current data group
 
-- **reversed**
+- **reseverd**
 
 	Unused
 
